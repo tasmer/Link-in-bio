@@ -1,2 +1,2 @@
-# link-in-bio-wp-headless
-Link in bio whit WordPress headless
+# link in bio
+Link in bio
