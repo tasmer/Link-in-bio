@@ -1,0 +1,20 @@
+{
+  "name": "link-in-bio",
+  "version": "1.0.0",
+  "description": "Link bio with dashbord is mono repository project.",
+  "main": "index.js",
+  "workspaces": ["backend", "frontend/"],
+  "scripts": {
+    "dev:backend": "node --watch backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tasmer/link-in-bio.git"
+  },
+  "author": "Zainodine Soulé",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tasmer/link-in-bio/issues"
+  },
+  "homepage": "https://github.com/tasmer/link-in-bio#readme"
+}
