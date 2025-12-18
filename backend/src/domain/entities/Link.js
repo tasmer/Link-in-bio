@@ -39,10 +39,13 @@ class Link {
     toJSON() {
         return {
             id: this.id,
-            userId: this.url,
+            userId: this.userId,
             label: this.label,
             url: this.url,
-        }
+            icon: this.icon,
+            createdAt: this.createdAt,
+            updatedAt: this.updtatedAt
+        };
     }
 }
 

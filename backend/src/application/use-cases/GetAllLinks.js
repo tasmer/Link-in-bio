@@ -10,7 +10,7 @@ class GetAllLinks {
 
     const links = await this.linkRepository.findAll(userId);
 
-    return links.map(link => link.toJson());
+    return links.map(link => link.toJSON());
   }
 }
 
